@@ -1,0 +1,9 @@
+author: Xurame
+name: MavenPlugin
+version: 0.0.1
+main: com.xurame.mavenplugin.MavenPlugin
+
+commands:
+    boom:
+        usage: /<command>
+        discription: explode yourself
