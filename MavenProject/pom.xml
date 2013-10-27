@@ -7,6 +7,9 @@
   <description>A maven project
 </description>
   <build>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
