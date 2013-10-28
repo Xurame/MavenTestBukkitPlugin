@@ -20,7 +20,6 @@ public class KillCommand implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label,
 			String[] args) {
-		// TODO Auto-generated method stub
 		if(cmd.getName().equalsIgnoreCase("boom")) {
 			Player player = (Player) sender;
 			player.getGameMode();
